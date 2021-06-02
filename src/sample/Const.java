@@ -1,5 +1,8 @@
 package sample;
 
+/**
+ * класс наименовании таблицы с БД и ее полей
+ */
 public class Const {
     public static final String TABLE_NAME = "contract";
     public static final String TABLE_ID = "id";

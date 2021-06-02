@@ -8,8 +8,19 @@ import javafx.stage.Stage;
 
 import java.util.Objects;
 
+/**
+ * Класс Main запускает окно fxml
+ *
+ * @author OLEG EVSEEV
+ * @version 1.0
+ */
 public class Main extends Application {
-
+    /**
+     * Переопределение метода start() класса Application
+     *
+     * @param primaryStage
+     * @throws Exception
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("sample.fxml")));
